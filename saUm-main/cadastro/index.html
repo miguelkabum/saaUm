@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="conteudo">
+            <div class="logo">
+                <img src="/img/logoSenai.png" alt="">
+            </div>
+            <div class="botoes">
+                <div onclick="home()" class="botaoUm">Home</div>
+                <div onclick="nossaHistoria()" class="botaoDois">Nossa Historia</div>
+            </div>
+        </div>
+        <div class="user">
+            <img class="imgUser" src="/img/user.svg" alt="">
+            <!-- <div class="cadastro">
+                <a href="#"></a>
+                    <span>ou</span>
+                <a href="#"></a>
+            </div> -->
+        </div>
+    </header>
+    <main>
+        <h1>Cadastro</h1>
+        <div class="fomulario">
+            <form id="labels" action="">
+                <label for="nome">   Nome Completo</label>
+                <input class="boxtxt" type="text" id="nome" name="nome" placeholder="   Digite seu nome">
+                <label for="dataNasc">   Data de nascimento</label>
+                <input class="boxtxt data" type="date" id="dataNasc" name="dataNasc" placeholder="">
+            
+                <label for="telefone">Telefone</label>
+                <input class="boxtxt" type="tel" id="telefone" name="telefone" placeholder="   Digite seu telefone">
+            
+                <label for="email">Email</label>
+                <input class="boxtxt" type="email" id="email" name="email" placeholder="   Digite seu E-mail">
+            </form>
+            <button id="botao">cadastre-se</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="logoFooter">
+            <img src="/img/logoSenai.png" alt="">
+            <img src="/img/logoSenai.png" alt="">
+        </div>
+        <div class="redesSociais">
+            <h3>Redes Sociais</h3>
+            <div class="aaa">
+                <div class="div">
+                    <img src="/img/Facebook.png" alt="">
+                    <a href="https://www.facebook.com/senainacional">Facebook</a>
+                </div>
+                <div class="div">
+                    <img src="/img/Instagram.png" alt="">
+                    <a href="https://www.instagram.com/senaies/">Instagram</a>
+                </div>
+                <div class="div">
+                    <img src="/img/YouTube.png" alt="">
+                    <a href="https://www.youtube.com/channel/UCzqd0VpWU_w4BKwmSvFdieQ">YouTube</a>
+                </div>
+            </div>
+        </div>
+        <div class="contato">
+            <h3>SAC - Serviço de Atendimento ao Cliente</h3>
+            <div class="div">
+                <img src="/img/At sign.png" alt="">
+                <a href="">Fale conosco</a>
+            </div>
+            <div class="div">
+                <img src="/img/Call.png" alt="">
+                <a href="">Perguntas Frequentes</a>
+            </div>
+            <div class="div">
+                <img src="/img/Question Mark.png" alt="">
+                <a href="">Telefone: 0800 102 0880</a>
+            </div>
+            <div class="div">
+                <img src="/img/Clock.png" alt="">
+                <a href="">Horário de funcionamento: Segunda a Sexta-feira, das 7h às 19h. Exceto feriados nacionais e locais.</a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="/cadastro/script.js"></script>
+</html>
